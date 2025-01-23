@@ -20,7 +20,7 @@
   };
 
   # Kernel configuration
-  boot.kernelPackages = pkgs.linuxPackages_latest;
+  boot.kernelPackages = pkgs.linuxPackages_6_12;
 
   # CHANGE if you have amd cpu
   hardware.cpu.intel.updateMicrocode = true;
