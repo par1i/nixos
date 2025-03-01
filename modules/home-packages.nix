@@ -1,3 +1,4 @@
+
 { config, pkgs, ... }:
 
 {
@@ -18,8 +19,7 @@
       neovim
       gnumake
       ripgrep
-      tree-sitter 
-      zed-editor
+      tree-sitter
       zoxide
       spotify
       lsd
@@ -32,9 +32,9 @@
       lazygit
       gh
       cava
-      spacedrive
       obsidian
       motrix
+      xournalpp
 
       # dev packages
       gcc
